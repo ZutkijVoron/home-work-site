@@ -53,6 +53,14 @@ body {
 	font-weight: 600;
 }
 
+.header-header-nav a:hover {
+	color: rgb(91, 194, 194);
+}
+
+.header-header-nav a:active {
+	color: rgb(69, 123, 123);
+}
+
 .header-main {
 	display: flex;
 	justify-content: space-between;
@@ -133,4 +141,35 @@ body {
 	font-weight: 700;
 	font-size: 40px;
 	padding: 12px 0;
+}
+
+.main-cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+.main-cards-mini-card {
+	background: #132035;
+	border-radius: 10px;
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+}
+.main-cards-big-card {
+	background: #132035;
+	border-radius: 10px;
+	grid-row: span 2;
+	grid-column: span 2;
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+}
+.main-cards-card-img {
+	align-self: center;
+	justify-self: center;
+	margin: 30px;
+}
+.main-cards-card-h2 {
+	font-weight: 700;
+	font-size: 25px;
+	text-align: center;
+	opacity: 0.7;
 }
