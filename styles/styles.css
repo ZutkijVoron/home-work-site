@@ -74,7 +74,7 @@ body {
 	font-size: 55px;
 }
 
-.header-main-article-p {
+.p {
 	font-weight: 600;
 	font-size: 18px;
 	opacity: 0.7;
@@ -86,7 +86,7 @@ body {
 	gap: 20px;
 }
 
-.header-main-article-footer-button {
+.button {
 	display: flex;
 	align-items: center;
 	gap: 10px;
@@ -99,10 +99,10 @@ body {
 	line-height: 27px;
 }
 
-.header-main-article-footer-button:hover {
+.button:hover {
 	background: #ffffff;
 	color: #3a68b8;
-	.header-main-article-footer-button-svg-path {
+	.button-svg-path {
 		fill: #3a68b8;
 	}
 }
@@ -116,4 +116,21 @@ body {
 
 .header-footer-logo {
 	cursor: pointer;
+}
+
+.main-lorem-ipsum {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 150px;
+}
+
+.main-lorem-ipsum-section {
+	max-width: 484px;
+	margin: auto 0;
+}
+
+.h2 {
+	font-weight: 700;
+	font-size: 40px;
+	padding: 12px 0;
 }
