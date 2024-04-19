@@ -86,7 +86,8 @@ body {
 	font-weight: 600;
 	font-size: 18px;
 	opacity: 0.7;
-	margin-bottom: 3rem;
+	line-height: 29px;
+	margin: 15px 0;
 }
 
 .header-main-article-footer {
@@ -95,6 +96,7 @@ body {
 }
 
 .button {
+	margin-top: 50px;
 	display: flex;
 	align-items: center;
 	gap: 10px;
@@ -130,6 +132,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 150px;
+	padding-bottom: 150px;
 }
 
 .main-lorem-ipsum-section {
@@ -137,10 +140,11 @@ body {
 	margin: auto 0;
 }
 
-.h2 {
-	font-weight: 700;
-	font-size: 40px;
-	padding: 12px 0;
+.main-lorem-ipsum-section-p {
+	font-weight: 600;
+	font-size: 18px;
+	opacity: 0.7;
+	line-height: 29px;
 }
 
 .main-cards {
@@ -148,28 +152,56 @@ body {
 	grid-template-columns: repeat(3, 1fr);
 	gap: 30px;
 }
+
 .main-cards-mini-card {
 	background: #132035;
 	border-radius: 10px;
 	display: grid;
-	grid-template-rows: repeat(3, 1fr);
+	padding: 30px;
+	max-width: max-content;
 }
+
 .main-cards-big-card {
 	background: #132035;
 	border-radius: 10px;
 	grid-row: span 2;
 	grid-column: span 2;
 	display: grid;
-	grid-template-rows: repeat(3, 1fr);
+	max-width: max-content;
 }
+
 .main-cards-card-img {
 	align-self: center;
 	justify-self: center;
 	margin: 30px;
 }
+
 .main-cards-card-h2 {
 	font-weight: 700;
 	font-size: 25px;
 	text-align: center;
 	opacity: 0.7;
+	line-height: 31px;
+}
+
+.main-cards-card-p {
+	font-weight: 600;
+	font-size: 16px;
+	text-align: center;
+	opacity: 0.7;
+	line-height: 29px;
+	margin: 30px;
+}
+
+.main-about {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.main-about-article {
+	max-width: 548px;
+	max-height: max-content;
 }
