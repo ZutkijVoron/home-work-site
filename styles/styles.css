@@ -9,6 +9,7 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 	color: #ffffff;
+	cursor: default;
 }
 
 .header {
@@ -51,6 +52,11 @@ body {
 .a {
 	text-decoration: none;
 	font-weight: 600;
+	transition: 0.5s;
+	cursor: progress;
+	svg path {
+		transition: 0.5s;
+	}
 }
 
 .a:hover {
@@ -115,6 +121,8 @@ body {
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 27px;
+	cursor: pointer;
+	transition: 0.5s;
 }
 
 .button:hover {
@@ -260,4 +268,22 @@ body {
 .footer-address {
 	display: flex;
 	justify-content: space-between;
+}
+
+.footer-social {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.footer-social-address {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 50px;
+}
+
+.footer-social-icons {
+	display: flex;
+	gap: 20px;
 }
