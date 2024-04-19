@@ -1,5 +1,6 @@
 body {
 	background: #020a18;
+	padding: 5px;
 }
 
 * {
@@ -136,12 +137,14 @@ body {
 .header-footer {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	align-items: center;
 	padding: 50px 0;
 }
 
 .header-footer-logo {
 	cursor: pointer;
+	margin: 15px;
 }
 
 .main-lorem-ipsum {
@@ -286,4 +289,7 @@ body {
 .footer-social-icons {
 	display: flex;
 	gap: 20px;
+}
+
+@media (max-width: 850px) {
 }
